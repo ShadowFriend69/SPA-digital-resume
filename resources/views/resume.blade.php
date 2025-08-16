@@ -5,6 +5,7 @@
         <title>Resume</title>
     </head>
     <body>
-        hello {{ $resume['basics']['name'] }}
+    @php /** @var \App\Dto\Resume $resume */ @endphp
+        hello {{ $resume->basics->name }} {{ $resume->basics->label }}
     </body>
 </html>
