@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Resume</title>
+        @vite(['resources/js/app.js'])
     </head>
     <body>
     @php /** @var \App\Dto\Resume $resume */ @endphp
